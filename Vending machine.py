@@ -3,7 +3,7 @@ class VendingMachine:
     def __init__(self):
         self.items = {
             'cola': 3.00,
-            'chips': 2.00,'candy': 4.75,}
+            'chips': 2.00,'candy': 4.75,'water': 1.50,'sandwich': 6.00,'juice': 2.50,'cookie': 3.25,'gum': 1.00,'mints': 0.75,'fruit custard': 2.25}
         self.balance = 0.0
 
     def display_items(self):
