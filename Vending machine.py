@@ -71,7 +71,13 @@ if __name__ == "__main__":
             item = input("Enter the item you want to purchase: ")
             vending_machine.select_item(item)
         elif choice == '4':
-            print("Exiting. Thank you!")
+            print('''████████ ██   ██  █████  ███    ██ ██   ██     ██    ██  ██████  ██    ██ 
+   ██    ██   ██ ██   ██ ████   ██ ██  ██       ██  ██  ██    ██ ██    ██ 
+   ██    ███████ ███████ ██ ██  ██ █████         ████   ██    ██ ██    ██ 
+   ██    ██   ██ ██   ██ ██  ██ ██ ██  ██         ██    ██    ██ ██    ██ 
+   ██    ██   ██ ██   ██ ██   ████ ██   ██        ██     ██████   ██████  
+                                                                          
+                                                                          ''')
             break
         else:
             print("Invalid choice. Please enter a number between 1 and 4.")
