@@ -38,7 +38,6 @@ class VendingMachine:
         self.balance += amount
         print(f"Inserted: ${amount:.2f}")
         print(f"Current Balance: ${self.balance:.2f}")
-
     def select_item(self, item):
         item = item.lower()
         if item in self.items:
